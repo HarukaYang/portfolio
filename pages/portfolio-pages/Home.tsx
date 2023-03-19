@@ -2,12 +2,10 @@ import { Box, createStyles, createTheme, makeStyles, Paper, Theme, ThemeProvider
 import Link from 'next/link'
 import TitleBox from '../components/TitleBox/TitleBox';
 
-const theme = createTheme();
 
 export default function FirstPost() {
   return (
     <>
-    <ThemeProvider theme={theme}>
       <Box 
         sx={{
           height: '100%',
@@ -26,31 +24,42 @@ export default function FirstPost() {
       <Box
         key="paper"
         sx={{
-          position: 'fixed',
-          height: '-webkit-fill-available',
+          display: 'flex',
+          flexDirection: 'column',
+          alignContent: 'center',
+          justifyContent: 'center',
           left: '0',
           right: '0',
           zIndex: '2',
           overflow: 'scroll',
         }}    
       >
-          <TitleBox/>
-          <Box
-            sx={{
-              display: 'block',
-              padding: '24px',
-              color: 'white',
-              fontWeight: 'bold',
-              zIndex: '2',
-            }}>          
-              <Typography
-                variant='h2'
-                fontWeight='bold'
-                >
-              </Typography>
-            </Box>
-          </Box>
-    </ThemeProvider>
+        <TitleBox/>
+        <Box
+          key="titleBox"
+          sx={{
+            display: "block",
+            padding: "24px",
+            backgroundColor: "rgba(0,0,0, 0.4)" /* Black w/opacity/see-through */,
+            color: "white",
+            position: 'relative',
+            fontWeight: "bold",
+            border: "1px solid #f1f1f1",
+            left: '50%',
+            transform: "translate(-50%, -50%)",
+            zIndex: "2",
+            width: "60%",
+            textAlign: "center",
+          }}
+        >
+            <Typography
+              variant='h6'
+              fontWeight='bold'
+              >
+              I am a computer science student currently studying at Simon Fraser University.
+            </Typography>
+        </Box>
+     </Box>
     </>
   );
 }
