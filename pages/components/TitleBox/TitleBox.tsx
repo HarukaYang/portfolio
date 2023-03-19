@@ -19,10 +19,6 @@ export default class TitleBox extends Component<Props, State> {
           color: "white",
           fontWeight: "bold",
           border: "1px solid #f1f1f1",
-          position: "relative",
-          marginTop: "50vh",
-          marginLeft: "50%",
-          transform: "translate(-50%, -50%)",
           zIndex: "2",
           width: "60%",
           textAlign: "center",
@@ -45,6 +41,13 @@ export default class TitleBox extends Component<Props, State> {
           fontWeight="bold"
         >
           and I am a fullstack developer
+        </Typography>
+        <Typography
+          sx={{
+            textShadow: "grey 2px 0 10px",
+          }}
+          fontWeight="bold"
+        >
         </Typography>
       </Box>
     );

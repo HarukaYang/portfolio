@@ -1,7 +1,9 @@
 import { Box, createStyles, createTheme, makeStyles, Paper, Theme, ThemeProvider, Typography } from '@mui/material';
 import Link from 'next/link'
+import TextBox from '../components/TextBox/TextBox';
 import TitleBox from '../components/TitleBox/TitleBox';
 
+const LoremIpsum:string = "What is Lorem Ipsum?Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Why do we use it?"
 
 export default function FirstPost() {
   return (
@@ -26,8 +28,10 @@ export default function FirstPost() {
         sx={{
           display: 'flex',
           flexDirection: 'column',
-          alignContent: 'center',
+          alignItems: 'center',
           justifyContent: 'center',
+          paddingTop: '50vh',
+          rowGap: '200px',
           left: '0',
           right: '0',
           zIndex: '2',
@@ -35,30 +39,11 @@ export default function FirstPost() {
         }}    
       >
         <TitleBox/>
-        <Box
-          key="titleBox"
-          sx={{
-            display: "block",
-            padding: "24px",
-            backgroundColor: "rgba(0,0,0, 0.4)" /* Black w/opacity/see-through */,
-            color: "white",
-            position: 'relative',
-            fontWeight: "bold",
-            border: "1px solid #f1f1f1",
-            left: '50%',
-            transform: "translate(-50%, -50%)",
-            zIndex: "2",
-            width: "60%",
-            textAlign: "center",
-          }}
-        >
-            <Typography
-              variant='h6'
-              fontWeight='bold'
-              >
-              I am a computer science student currently studying at Simon Fraser University.
-            </Typography>
-        </Box>
+        <TextBox text="I am a computer science student currently studying at Simon Fraser University."/>
+        <TextBox text={LoremIpsum}/>
+
+        
+
      </Box>
     </>
   );
