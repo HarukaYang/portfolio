@@ -19,6 +19,7 @@ export default class TitleBox extends Component<Props, State> {
           color: "white",
           fontWeight: "bold",
           border: "1px solid #f1f1f1",
+          transform: 'translate(0, -70px)',
           zIndex: "2",
           width: "60%",
           textAlign: "center",

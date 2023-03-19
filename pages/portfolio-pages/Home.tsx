@@ -31,7 +31,7 @@ export default function FirstPost() {
           alignItems: 'center',
           justifyContent: 'center',
           paddingTop: '50vh',
-          rowGap: '200px',
+          rowGap: '280px',
           left: '0',
           right: '0',
           zIndex: '2',
