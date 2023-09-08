@@ -216,7 +216,7 @@ export default function FirstPost() {
               text="Applied in API automation tasks and back-end services. Also employed for build processes in front-end development."
             />
             <IconCard
-              imgPath="/resources/images/flask.png"
+              imgPath="/resources/images/flaskwhite.png"
               title="Flask"
               text="Key technology for backend services in a blockchain system developed during my co-op at the International CyberCrime Research Centre."
             />

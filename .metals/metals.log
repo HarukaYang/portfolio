@@ -28,3 +28,5 @@ INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (e
 2023.09.08 16:29:18 INFO  time: initialize in 0.64s
 2023.09.08 16:29:19 WARN  Build server is not auto-connectable.
 2023.09.08 16:29:19 WARN  no build tool detected in workspace '/Users/harukay/Desktop/Creation Shores/React/nextJs/portfolio'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Sep 08, 2023 4:49:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
