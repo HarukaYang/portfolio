@@ -13,7 +13,8 @@ export default class TextBox extends Component<Props, State> {
   render() {
     return (
       <Box
-          key="titleBox"
+          key="textBox"
+          className="text-box"
           sx={{
             display: "block",
             padding: "24px",

@@ -105,3 +105,16 @@ a {
     color-scheme: dark;
   }
 }
+
+/* Slide in from the left */
+.slide-in-element {
+  transition: all 0.3s ease-in-out;
+}
+
+.slide-in {
+  transform: translateX(0);
+}
+
+.slide-out {
+  transform: translateX(-100%); /* adjust as needed */
+}
