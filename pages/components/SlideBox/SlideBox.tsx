@@ -26,7 +26,7 @@ const SlideInComponent: React.FC<SlideInComponentProps> = ({ text }) => {
       const textTargetTop = textRect.top + scrollY;
 
       // Slide in when the top of the TextBox element is about to enter the viewport from the bottom
-      const slideInTrigger = scrollY - windowHeight * 0.8;
+      const slideInTrigger = scrollY - windowHeight * 0.2;
 
       // Slide out when the TextBox element reaches the upper 25% of the screen
       const slideOutTrigger = scrollY;

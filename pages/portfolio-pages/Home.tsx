@@ -61,6 +61,8 @@ export default function FirstPost() {
       >
         <Button
           variant="text"
+          href="https://www.linkedin.com/in/dingshuo-yang-062175214/"
+          target="_blank"
           sx={{
             color: "rgba(255, 255, 255, 0.8)",
             // borderRadius: "0",
@@ -99,7 +101,7 @@ export default function FirstPost() {
           alignItems: "center",
           justifyContent: "center",
           paddingTop: "50vh",
-          rowGap: "1000px",
+          rowGap: "800px",
           left: "0",
           right: "0",
           zIndex: "20",
@@ -166,7 +168,12 @@ export default function FirstPost() {
             </Typography>
             <IconCard
               imgPath="/resources/images/React-icon.svg.png"
-              title="ReactJs"
+              title="React"
+              text="5 months professional development experience in component and page designing, implementing and testing"
+            />
+            <IconCard
+              imgPath="/resources/images/nextjs.jpeg"
+              title="Next.js"
               text="5 months professional development experience in component and page designing, implementing and testing"
             />
             <IconCard
@@ -174,7 +181,30 @@ export default function FirstPost() {
               title="Material UI"
               text="Description for Material UI"
             />
-
+            <IconCard
+              imgPath="/resources/images/tailwind.png"
+              title="Tailwind"
+              text="Description for tailwind"
+            />
+            <Typography
+              variant="h4"
+              fontWeight="bold"
+              color="rgba(240, 240, 240, 0.9)"
+              paddingLeft="32px"
+              paddingTop="32px"
+            >
+              Back-end
+            </Typography>
+            <IconCard
+              imgPath="/resources/images/Nodejs.png"
+              title="Node.js"
+              text="Description for Node.js"
+            />
+            <IconCard
+              imgPath="/resources/images/flask.png"
+              title="Flask"
+              text="Description for Flask"
+            />
             <Typography
               variant="h4"
               fontWeight="bold"
@@ -189,19 +219,21 @@ export default function FirstPost() {
               title="MySQL"
               text="Description for MySQL"
             />
-            <Typography
-              variant="h4"
-              fontWeight="bold"
-              color="rgba(240, 240, 240, 0.9)"
-              paddingLeft="32px"
-              paddingTop="32px"
-            >
-              Frameworks
-            </Typography>
+
             <IconCard
-              imgPath="/resources/images/Nodejs.png"
-              title="Node.js"
-              text="Description for Node.js"
+              imgPath="/resources/images/postgresql.png"
+              title="Postgres"
+              text="Description for Postgres"
+            />
+            <IconCard
+              imgPath="/resources/images/sqlite.png"
+              title="SQLite"
+              text="Description for SQLite"
+            />
+            <IconCard
+              imgPath="/resources/images/Redis.png"
+              title="Redis"
+              text="Description for Redis"
             />
           </Box>
         </BorderBox>
