@@ -51,13 +51,13 @@ export default class IconCard extends Component<Props, State> {
             src={imgPath}
             alt="Description"
           />
-          <Typography variant="h6" fontWeight="bold">
+          <Typography variant="h6" fontWeight="bold" >
             {this.props.title}
           </Typography>
         </Box>
 
         <Box key="content" paddingLeft="56px" alignItems="center">
-          <Typography variant="h6">{this.props.text}</Typography>
+          <Typography variant="h6" maxWidth="600px">{this.props.text}</Typography>
         </Box>
       </Box>
     );

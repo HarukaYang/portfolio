@@ -59,19 +59,34 @@ export default function FirstPost() {
         }}
         zIndex="1000"
       >
-        <Button
-          variant="text"
-          href="https://www.linkedin.com/in/dingshuo-yang-062175214/"
-          target="_blank"
-          sx={{
-            color: "rgba(255, 255, 255, 0.8)",
-            // borderRadius: "0",
-            // borderColor: "white",
-            // border: "1px solid rgba(255, 255, 255, 0.6)",
-          }}
-        >
-          LINKEDIN
-        </Button>
+        <Box key="TopLeftToolBar" display="flex" gap="24px">
+          <Button
+            variant="text"
+            href="https://www.linkedin.com/in/dingshuo-yang-062175214/"
+            target="_blank"
+            sx={{
+              color: "rgba(255, 255, 255, 0.8)",
+              // borderRadius: "0",
+              // borderColor: "white",
+              // border: "1px solid rgba(255, 255, 255, 0.6)",
+            }}
+          >
+            LINKEDIN
+          </Button>
+          <Button
+            variant="text"
+            href="https://github.com/HarukaYang"
+            target="_blank"
+            sx={{
+              color: "rgba(255, 255, 255, 0.8)",
+              // borderRadius: "0",
+              // borderColor: "white",
+              // border: "1px solid rgba(255, 255, 255, 0.6)",
+            }}
+          >
+            GITHUB
+          </Button>
+        </Box>
 
         <Box key="TopRightToolBar" display="flex" gap="24px">
           <Button
@@ -110,7 +125,7 @@ export default function FirstPost() {
       >
         <TitleBox />
         <TextBox text={SELF_INTRO} />
-        <SlideBox text={ABOUT} />
+        {/* <SlideBox text={ABOUT} /> */}
 
         <BorderBox>
           <Typography
@@ -140,22 +155,22 @@ export default function FirstPost() {
             <IconCard
               imgPath="/resources/images/typescript.png"
               title="Typescript"
-              text="Description for Typescript"
+              text="Utilized extensively in both front-end and back-end development, including user-friendly React components and APIs."
             />
             <IconCard
               imgPath="/resources/images/python.png"
               title="Python"
-              text="Description for Python"
+              text="Professional experience in developing a blockchain integrated system, backend services, and web scrapers. Rich academic experience in data science including data mining and analysis."
             />
             <IconCard
               imgPath="/resources/images/C++.png"
               title="C++"
-              text="Description for C++"
+              text="Used in academic research for object detection and VR scene reconstruction through RGB-D sensors."
             />
             <IconCard
               imgPath="/resources/images/Haskell.png"
               title="Haskell"
-              text="Description for Haskell"
+              text="Basic familiarity, primarily used in academic settings for functional programming tasks."
             />
             <Typography
               variant="h4"
@@ -169,22 +184,22 @@ export default function FirstPost() {
             <IconCard
               imgPath="/resources/images/React-icon.svg.png"
               title="React"
-              text="5 months professional development experience in component and page designing, implementing and testing"
+              text="5 months of professional experience in component and page design, implementation, and testing. Proficient in best practices."
             />
-            <IconCard
+            {/* <IconCard
               imgPath="/resources/images/nextjs.jpeg"
               title="Next.js"
-              text="5 months professional development experience in component and page designing, implementing and testing"
-            />
+              text="Used in conjunction with React for server-side rendering and enhancing SEO."
+            /> */}
             <IconCard
               imgPath="/resources/images/MUI.png"
               title="Material UI"
-              text="Description for Material UI"
+              text="Implemented user-friendly interfaces adhering to Material Design principles."
             />
             <IconCard
               imgPath="/resources/images/tailwind.png"
               title="Tailwind"
-              text="Description for tailwind"
+              text="Used for rapid UI development, focusing on utility-first CSS classes."
             />
             <Typography
               variant="h4"
@@ -198,12 +213,12 @@ export default function FirstPost() {
             <IconCard
               imgPath="/resources/images/Nodejs.png"
               title="Node.js"
-              text="Description for Node.js"
+              text="Applied in API automation tasks and back-end services. Also employed for build processes in front-end development."
             />
             <IconCard
               imgPath="/resources/images/flask.png"
               title="Flask"
-              text="Description for Flask"
+              text="Key technology for backend services in a blockchain system developed during my co-op at the International CyberCrime Research Centre."
             />
             <Typography
               variant="h4"
@@ -217,23 +232,46 @@ export default function FirstPost() {
             <IconCard
               imgPath="/resources/images/mysql.png"
               title="MySQL"
-              text="Description for MySQL"
+              text="Designed and implemented database schemas for a blockchain system. Experience with handling millions of dynamic data inputs."
             />
-
             <IconCard
               imgPath="/resources/images/postgresql.png"
               title="Postgres"
-              text="Description for Postgres"
+              text="Familiarity with usage in web applications, although not extensively applied in professional settings."
             />
             <IconCard
               imgPath="/resources/images/sqlite.png"
               title="SQLite"
-              text="Description for SQLite"
+              text="Used for lighter database needs, particularly in developmental stages of projects."
             />
             <IconCard
               imgPath="/resources/images/Redis.png"
               title="Redis"
-              text="Description for Redis"
+              text="Employed as an in-memory data store in a blockchain system, enhancing data retrieval speeds."
+            />
+            <Typography
+              variant="h4"
+              fontWeight="bold"
+              color="rgba(240, 240, 240, 0.9)"
+              paddingLeft="32px"
+              paddingTop="32px"
+            >
+              DevOps
+            </Typography>
+            <IconCard
+              imgPath="/resources/images/docker.png"
+              title="Docker"
+              text="Docker Description"
+            />
+            <IconCard
+              imgPath="/resources/images/githubwhite.png"
+              title="GitHub"
+              text="GitHub Description"
+            />
+            <IconCard
+              imgPath="/resources/images/svn.svg"
+              title="Subversion"
+              text="SVN Description"
             />
           </Box>
         </BorderBox>
