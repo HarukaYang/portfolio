@@ -46,7 +46,8 @@ export default class IconCard extends Component<Props, State> {
           <Box
             component="img"
             sx={{
-              width: "10vh",
+              maxHeight: "10vh",
+              maxWidth: "10vh",
             }}
             src={imgPath}
             alt="Description"
