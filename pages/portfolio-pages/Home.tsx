@@ -182,7 +182,7 @@ export default function FirstPost() {
               Front-end
             </Typography>
             <IconCard
-              imgPath="/static/images/react-icon.svg.png"
+              imgPath="/static/images/react.png"
               title="React"
               text="5 months of professional experience in component and page design, implementation, and testing. Proficient in best practices."
             />
