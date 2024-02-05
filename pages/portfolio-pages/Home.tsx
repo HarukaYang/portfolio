@@ -153,7 +153,7 @@ export default function FirstPost() {
               Language
             </Typography>
             <IconCard
-              imgPath="/static/images/typescript.png"
+              imgPath="/static/images/ts.png"
               title="Typescript"
               text="Utilized extensively in both front-end and back-end development, including user-friendly React components and APIs."
             />
