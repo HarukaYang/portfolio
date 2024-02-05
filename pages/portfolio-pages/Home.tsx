@@ -163,12 +163,12 @@ export default function FirstPost() {
               text="Professional experience in developing a blockchain integrated system, backend services, and web scrapers. Rich academic experience in data science including data mining and analysis."
             />
             <IconCard
-              imgPath="/static/images/C++.png"
+              imgPath="/static/images/c++.png"
               title="C++"
               text="Used in academic research for object detection and VR scene reconstruction through RGB-D sensors."
             />
             <IconCard
-              imgPath="/static/images/Haskell.png"
+              imgPath="/static/images/haskell.png"
               title="Haskell"
               text="Basic familiarity, primarily used in academic settings for functional programming tasks."
             />
@@ -192,7 +192,7 @@ export default function FirstPost() {
               text="Used in conjunction with React for server-side rendering and enhancing SEO."
             /> */}
             <IconCard
-              imgPath="/static/images/MUI.png"
+              imgPath="/static/images/mui.png"
               title="Material UI"
               text="Implemented user-friendly interfaces adhering to Material Design principles."
             />
@@ -211,7 +211,7 @@ export default function FirstPost() {
               Back-end
             </Typography>
             <IconCard
-              imgPath="/static/images/Nodejs.png"
+              imgPath="/static/images/nodejs.png"
               title="Node.js"
               text="Applied in API automation tasks and back-end services. Also employed for build processes in front-end development."
             />
@@ -245,7 +245,7 @@ export default function FirstPost() {
               text="Used for lighter database needs, particularly in developmental stages of projects."
             />
             <IconCard
-              imgPath="/static/images/Redis.png"
+              imgPath="/static/images/redis.png"
               title="Redis"
               text="Employed as an in-memory data store in a blockchain system, enhancing data retrieval speeds."
             />
