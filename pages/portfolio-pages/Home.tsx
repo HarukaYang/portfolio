@@ -34,7 +34,7 @@ export default function FirstPost() {
           width: "500px",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          backgroundImage: `url(${"/images/profile_hd.jpg"})`,
+          backgroundImage: `url(${"/static/images/profile_hd.jpg"})`,
           WebkitFilter: "blur(0px)",
           position: "fixed",
           left: "250px",
@@ -153,22 +153,22 @@ export default function FirstPost() {
               Language
             </Typography>
             <IconCard
-              imgPath="/images/typescript.png"
+              imgPath="/static/images/typescript.png"
               title="Typescript"
               text="Utilized extensively in both front-end and back-end development, including user-friendly React components and APIs."
             />
             <IconCard
-              imgPath="/images/python.png"
+              imgPath="/static/images/python.png"
               title="Python"
               text="Professional experience in developing a blockchain integrated system, backend services, and web scrapers. Rich academic experience in data science including data mining and analysis."
             />
             <IconCard
-              imgPath="/images/C++.png"
+              imgPath="/static/images/C++.png"
               title="C++"
               text="Used in academic research for object detection and VR scene reconstruction through RGB-D sensors."
             />
             <IconCard
-              imgPath="/images/Haskell.png"
+              imgPath="/static/images/Haskell.png"
               title="Haskell"
               text="Basic familiarity, primarily used in academic settings for functional programming tasks."
             />
@@ -182,22 +182,22 @@ export default function FirstPost() {
               Front-end
             </Typography>
             <IconCard
-              imgPath="/images/React-icon.svg.png"
+              imgPath="/static/images/React-icon.svg.png"
               title="React"
               text="5 months of professional experience in component and page design, implementation, and testing. Proficient in best practices."
             />
             {/* <IconCard
-              imgPath="/images/nextjs.jpeg"
+              imgPath="/static/images/nextjs.jpeg"
               title="Next.js"
               text="Used in conjunction with React for server-side rendering and enhancing SEO."
             /> */}
             <IconCard
-              imgPath="/images/MUI.png"
+              imgPath="/static/images/MUI.png"
               title="Material UI"
               text="Implemented user-friendly interfaces adhering to Material Design principles."
             />
             <IconCard
-              imgPath="/images/tailwind.png"
+              imgPath="/static/images/tailwind.png"
               title="Tailwind"
               text="Used for rapid UI development, focusing on utility-first CSS classes."
             />
@@ -211,12 +211,12 @@ export default function FirstPost() {
               Back-end
             </Typography>
             <IconCard
-              imgPath="/images/Nodejs.png"
+              imgPath="/static/images/Nodejs.png"
               title="Node.js"
               text="Applied in API automation tasks and back-end services. Also employed for build processes in front-end development."
             />
             <IconCard
-              imgPath="/images/flaskwhite.png"
+              imgPath="/static/images/flaskwhite.png"
               title="Flask"
               text="Key technology for backend services in a blockchain system developed during my co-op at the International CyberCrime Research Centre."
             />
@@ -230,22 +230,22 @@ export default function FirstPost() {
               Database
             </Typography>
             <IconCard
-              imgPath="/images/mysql.png"
+              imgPath="/static/images/mysql.png"
               title="MySQL"
               text="Designed and implemented database schemas for a blockchain system. Experience with handling millions of dynamic data inputs."
             />
             <IconCard
-              imgPath="/images/postgresql.png"
+              imgPath="/static/images/postgresql.png"
               title="Postgres"
               text="Familiarity with usage in web applications, although not extensively applied in professional settings."
             />
             <IconCard
-              imgPath="/images/sqlite.png"
+              imgPath="/static/images/sqlite.png"
               title="SQLite"
               text="Used for lighter database needs, particularly in developmental stages of projects."
             />
             <IconCard
-              imgPath="/images/Redis.png"
+              imgPath="/static/images/Redis.png"
               title="Redis"
               text="Employed as an in-memory data store in a blockchain system, enhancing data retrieval speeds."
             />
@@ -259,17 +259,17 @@ export default function FirstPost() {
               DevOps
             </Typography>
             <IconCard
-              imgPath="/images/docker.png"
+              imgPath="/static/images/docker.png"
               title="Docker"
               text="Docker Description"
             />
             <IconCard
-              imgPath="/images/githubwhite.png"
+              imgPath="/static/images/githubwhite.png"
               title="GitHub"
               text="GitHub Description"
             />
             <IconCard
-              imgPath="/images/svn.svg"
+              imgPath="/static/images/svn.svg"
               title="Subversion"
               text="SVN Description"
             />
